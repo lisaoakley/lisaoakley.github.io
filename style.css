@@ -6,15 +6,19 @@
 
 
 #header {
+	text-align: center;
+	background-image: url(chain-link.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 300px;
+	line-height: 300px;
 }
 
-#header-txt {
-	position: relative;
-	padding-top: 70 px;
+h1 {
 	font-family: 'Open Sans', sans-serif;
-	color: pink;
+	color: white;
 	font-size: 10vw;
-	text-align: center;
+	top: 50%;
 }
 
 img {
@@ -28,4 +32,5 @@ h2 {
 	font-family: 'Open Sans', sans-serif;
 	color: black;
 	text-align: center;
+	font-size: 3vw;
 }
