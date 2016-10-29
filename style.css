@@ -1,0 +1,31 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+}
+
+
+
+#header {
+}
+
+#header-txt {
+	position: relative;
+	padding-top: 70 px;
+	font-family: 'Open Sans', sans-serif;
+	color: pink;
+	font-size: 10vw;
+	text-align: center;
+}
+
+img {
+	position: relative;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	text-align: center;
+}
