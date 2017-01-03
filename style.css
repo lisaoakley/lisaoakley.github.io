@@ -26,12 +26,27 @@
 	padding-bottom: 15%;
 }
 
-#category {
-	background-color: gray;
+.category {
+	background-color: #98a1aa;
 	padding: 1.5%;
-	margin: 4%;
+	margin: 3%;
 	margin-bottom: 1.3%;
-	border-radius: 10px;
+}
+
+#category-right {
+	margin-left: 0px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#category-left {
+	margin-right: 0px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+#about-1 {
+	padding-bottom: 1%;
 }
 
 #classes {
@@ -42,8 +57,8 @@
 	padding-bottom: 3%;
 }
 
-#runkeeper {
-	padding-bottom: 3%;
+#about {
+	padding-right: 6%;
 }
 
 .section {
@@ -54,10 +69,13 @@
 	margin-left: 6%
 }
 
-.image1 {
-
+.empl {
+	margin-left: 6%;
 }
 
+#logic {
+	margin-bottom: 2%;
+}
 
 
 h1 {
@@ -81,6 +99,11 @@ h3 {
 }
 
 p1 {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 2vw;
+}
+
+p2 {
 	font-family: 'Helvetica', sans-serif;
 	font-size: 2vw;
 }
