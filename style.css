@@ -5,7 +5,7 @@
 
 #header {
 	text-align: center;
-	background-image: url(chain-link.png);
+	background-image: url(dock.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -15,13 +15,15 @@
 	background-color: white;
 	margin-right: 80%;
 	margin-left: 1%;
+	padding: 1%;
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
 }
 
+
 #lisa {
-	padding-top: 10%;
-	padding-bottom: 10%;
+	padding-top: 5%;
+	padding-bottom: 15%;
 }
 
 #category {
@@ -52,11 +54,15 @@
 	margin-left: 6%
 }
 
+.image1 {
+
+}
+
 
 
 h1 {
 	font-family: 'Helvetica', sans-serif;
-	color: black;
+	color: white;
 	font-size: 10vw;
 }
 
@@ -85,7 +91,6 @@ img {
     height: auto;
     width: auto;
 }
-
 
 table.courses th {
 	font-family: 'Helvetica', sans-serif;
