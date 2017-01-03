@@ -3,23 +3,37 @@
 	padding: 0; 
 }
 
-
-
 #header {
 	text-align: center;
 	background-image: url(chain-link.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	min-height: 350px;
-	max-height: 400px;
-	line-height: 400px;
+}
+
+#connections {
+	background-color: white;
+	margin-right: 80%;
+	margin-left: 1%;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+#lisa {
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
 #category {
-	background-color: beige;
+	background-color: gray;
 	padding: 1.5%;
+	margin: 4%;
 	margin-bottom: 1.3%;
+	border-radius: 10px;
+}
+
+#classes {
+	margin-left: 6%;
 }
 
 #northeastern {
@@ -35,7 +49,7 @@
 }
 
 .university {
-	margin-left: 2.5%
+	margin-left: 6%
 }
 
 
@@ -44,7 +58,6 @@ h1 {
 	font-family: 'Helvetica', sans-serif;
 	color: black;
 	font-size: 10vw;
-	top: 50%;
 }
 
 h2 {
@@ -74,14 +87,15 @@ img {
 }
 
 
-th {
+table.courses th {
 	font-family: 'Helvetica', sans-serif;
 	font-weight: bold;
-	font-size: 1.5vw;
+	font-size: 2vw;
+	text-align: left;
 }
 
-td {
+table.courses td {
 	font-family: 'Helvetica', sans-serif;
-	text-align: center;
-	font-size: 1.5vw;
+	text-align: left;
+	font-size: 2vw;
 }
