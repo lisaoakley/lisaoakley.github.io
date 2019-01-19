@@ -1,6 +1,6 @@
-* { 
-	margin: 0; 
-	padding: 0; 
+* {
+	margin: 0;
+	padding: 0;
 }
 
 #header {
@@ -19,7 +19,6 @@
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
 }
-
 
 #lisa {
 	padding-top: 5%;
@@ -126,4 +125,15 @@ table.courses td {
 	font-family: 'PT Sans', sans-serif;
 	text-align: left;
 	font-size: 2vw;
+}
+
+A:hover {
+	COLOR: blue;
+	TEXT-DECORATION: none;
+	font-weight: none;
+}
+a {
+	COLOR: gray;
+	TEXT-DECORATION: none;
+	font-weight: none;
 }
