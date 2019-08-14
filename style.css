@@ -1,120 +1,85 @@
 * {
 	margin: 0;
 	padding: 0;
+	background-color: #faf9f9
+}
+
+.row {
+	float:left;
+	background-color: #faf9f9;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.padded {
+	padding-left: 70px
+}
+
+.column {
+  float: left;
+  background-color: #faf9f9
+}
+  
+.smallcol {
+  	width: 25%;
+}
+  
+.bigcol {
+	width: 60%;
+}
+
+.wholecol {
+	width: 90%;
+}
+
+ul {
+	padding-left: 20px
+}
+
+li {
+	padding-bottom: 20px
 }
 
 #header {
 	text-align: center;
-	background-color: #393d3f
-}
-
-#connections {
-	background-color: #faf9f9;
-	margin-right: 80%;
-	margin-left: 1%;
-	padding: 1%;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-}
-
-#lisa {
-	padding-bottom: 15%;
-}
-
-.category {
-	padding: 1%;
-	margin-bottom: 1.3%;
-}
-
-#about-1 {
-	padding-bottom: 1%;
-}
-
-#classes {
-	margin-left: 6%;
-}
-
-#northeastern {
-	padding-bottom: 3%;
-}
-
-#about {
-	padding-right: 6%;
-}
-
-.section-A {
-	padding-bottom: 3%;
 	background-color: #faf9f9
 }
 
-.section-B {
-	padding-bottom: 3%;
-	background-color: #e0e2e2
+.center {
+	text-align: center;
+	vertical-align: middle;
 }
-
-
-.university {
-	margin-left: 6%
-}
-
-.empl {
-	margin-left: 6%;
-	margin-bottom: 2%;
-}
-
 
 h1 {
 	font-family: 'PT Sans', sans-serif;
-	color: #faf9f9;
-	font-size: 10vw;
+	color: #393d3f;
+	text-align: left;
+	font-size: 60px;
+	padding-bottom: 10px
 }
 
 h2 {
 	font-family: 'PT Sans', sans-serif;
 	color: #393d3f;
-	text-align: center;
-	font-size: 3vw;
+	font-size: 30px;
 }
-
 h3 {
 	font-family: 'PT Sans', sans-serif;
 	color: #393d3f;
-	font-weight: bold;
-	font-size: 2vw;
+	font-size: 18px;
+}
+
+
+#about {
+	padding-left: 30px;
 }
 
 p1 {
 	font-family: 'PT Sans', sans-serif;
-	font-size: 2vw;
-	color: #393d3f
+	font-size: 20px;
+	padding-bottom: 30px;
+	color: #393d3f;
 }
-
-p2 {
-	font-family: 'PT Sans', sans-serif;
-	font-size: 2vw;
-	color: #393d3f
-}
-
-img {
-	position: relative;
-    max-width: 100%;
-    height: auto;
-    width: auto;
-}
-
-table.courses th {
-	font-family: 'PT Sans', sans-serif;
-	font-weight: bold;
-	font-size: 2vw;
-	text-align: left;
-}
-
-table.courses td {
-	font-family: 'PT Sans', sans-serif;
-	text-align: left;
-	font-size: 2vw;
-}
-
 A:hover {
 	COLOR: blue;
 	TEXT-DECORATION: none;
